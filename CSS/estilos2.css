@@ -1,0 +1,204 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    background: rgb(247, 244, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    background: url(../IMG/FPRINCIPAL1.jpg);
+}
+#comida1{
+    width: 90%;
+    margin: 0px auto ;
+    background-color: rgb(235, 233, 233);
+}
+h1{
+   display:inline-block;
+   position: relative;
+   color:black;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+h1::after,h1::before{
+    content:'';
+    position: absolute;
+    width:120px;
+    height:3px;
+    background-color:currentColor;
+    top: 0.6em;
+    text-align:center;
+}
+h1::before{
+    left:-140px;   
+}
+h1::after{
+    right:-140px;
+}
+h1{
+    font-size:40px; 
+}
+
+
+h2{
+    text-align:left;
+    font-size:25px;
+}
+
+#tipico{
+    width:900px;
+    margin:20px auto;
+    text-align:justify;
+    
+}
+#tipico p{
+    margin-bottom:1em;
+}
+
+h3 {
+font-size:20px;
+}
+.lista{
+    width:900px;
+    margin:20px auto;
+    text-align:justify; 
+    background-color: rgb(205, 205, 206);  
+}
+.lista ul{
+    text-align:justify;
+    background-color:rgb(13, 219, 23);
+    margin-block: 24px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-position: inside; 
+    border-bottom: 1px solid #0d0e0d;
+}
+.lista ol{
+    text-align:justify;
+    background-color:rgb(76, 245, 76);
+    margin-block: 24px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    list-style-position: inside;
+    border-bottom: 1px solid #0d0e0d;
+}
+.lista h3{
+    text-align:center;
+}
+.tabla{
+    width:900px;
+    margin:20px auto;
+    text-align:center;
+    
+}
+img{
+    width: 100px;height: 100px;
+}
+
+
+.nuevo th{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(144, 146, 150);
+}
+.nuevo td{
+    font-size:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(8, 219, 138);
+}
+.nuevo td img{
+    width:200px;
+    height:200px;
+}
+
+
+th{
+    font-size:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(144, 146, 150);
+    background-color:#2f0d5c;
+}
+td{
+    font-size:22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(8, 219, 138);
+}
+
+#tipico ul li{
+    list-style-position: inside;
+}
+
+td img{
+    border-radius: 100%;
+}
+.sabrozo td {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px;
+    color:rgb(13, 237, 253);
+    text-shadow: 1px 1px 0px rgb(105, 8, 134);
+}
+.sabrozo td img{
+    border-radius: 25px 25px 25px 25px;
+    width:200px;
+    height:200px;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+
+
+.next button{
+    width:5em;
+    height:2em;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 50px 50px 150px  ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    position: absolute;
+    top: 50vh;
+    left: 5%; 
+}
+.back button{
+    width:4em;
+    height:2em;
+    background-color: black;
+    color: white;
+    border-radius: 150px 50px 50px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    position: absolute;
+    top: 50vh;
+    right: 5%; 
+}
+
+
+#uno{
+    width:6em;
+    height:2em;
+    background: linear-gradient(90deg, rgb(4, 73, 100) 8%, rgb(10, 142, 165) 58%, rgb(40, 208, 250) 91%);
+    border-radius: 50px 50px 50px 50px;
+    color:white;
+    font-size:20px;
+    font-weight: 300px;
+}
+#dos{
+    width:6em;
+    height:2em;
+    background: linear-gradient(90deg, rgb(4, 73, 100) 8%, rgb(10, 142, 165) 58%, rgb(40, 208, 250) 91%);
+    border-radius: 50px 50px 50px 50px;
+    color:white;
+    font-size:20px;
+    font-weight: 300px;
+}
+#tres{
+    width:6em;
+    height:2em;
+    background: linear-gradient(90deg, rgb(4, 73, 100) 8%, rgb(10, 142, 165) 58%, rgb(40, 208, 250) 91%);
+    border-radius: 50px 50px 50px 50px;
+    color:white;
+    font-size:20px;
+    font-weight: 300px;
+}
